@@ -8,12 +8,6 @@ public class Main {
         //matrix1.MatrixFilling();
         matrix1.MatrixRandom();
         matrix1.Show();
-        /*System.out.println("Maximum value:");
-        matrix1.Maximum();
-        System.out.println("Minimum value:");
-        matrix1.Minimum();
-        System.out.println("Average value:");
-        matrix1.AVG();*/
         System.out.println("Maximum value: " + matrix1.Maximum());
         System.out.println("Minimum value: " + matrix1.Minimum());
         System.out.println("Average value: " + matrix1.AVG());
@@ -27,9 +21,5 @@ public class Main {
         matrix1.Show();
         matrix2.Residual(matrix1);
         matrix2.Show();
-
-
-
-
     }
 }
